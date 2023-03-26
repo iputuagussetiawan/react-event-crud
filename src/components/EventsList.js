@@ -1,5 +1,4 @@
 import classes from './EventsList.module.css';
-
 function EventsList({ events }) {
   return (
     <div className={classes.events}>
@@ -20,5 +19,4 @@ function EventsList({ events }) {
     </div>
   );
 }
-
 export default EventsList;
